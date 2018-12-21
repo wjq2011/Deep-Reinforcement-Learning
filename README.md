@@ -125,7 +125,7 @@
 - **课件:** [lecture02](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf)
 - [观看视频2](https://www.bilibili.com/video/av9833386)
 - **学习笔记**： [马尔可夫决策过程](https://blog.csdn.net/dukuku5038/article/details/84361371)
->> **实战作业：**
+> **实战作业：**
 
 ### Week3
 1. 动态规划算法简介
@@ -155,7 +155,7 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture03](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/DP.pdf)
 - [观看视频3](https://www.bilibili.com/video/av9930653)
 - **学习笔记:** [动态规划寻找最优策略](https://blog.csdn.net/dukuku5038/article/details/84516559)
->> **实战作业：**
+> **实战作业：**
 
 
 ### Week4
@@ -194,7 +194,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture05](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/control.pdf)
 - [观看视频](https://www.bilibili.com/video/av10131824)
 - **学习笔记**：[不基于模型的控制](https://blog.csdn.net/dukuku5038/article/details/84578030)
->> **实战作业：**
 
 ### Week6
 1.  价值函数的近似表示
@@ -223,9 +222,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture06](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/FA.pdf)
 - [观看视频](https://www.bilibili.com/video/av10135631)
 - **学习笔记**： [价值函数的近似表示](https://blog.csdn.net/dukuku5038/article/details/84642597)
->> **实战作业：**
->**作业**：
->1、http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/Easy21-Johannes.pdf（第4题）
 
 ### Week7
 1. 策略梯度简介
@@ -258,7 +254,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture8](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/dyna.pdf)
 - [观看视频](https://www.bilibili.com/video/av10293687)
 - **学习笔记**： [整合学习与规划](https://blog.csdn.net/dukuku5038/article/details/84691437)
->> **实战作业：**
 
 ### Week9
 1.  探索与利用
@@ -271,7 +266,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture9](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/XX.pdf)
 - [观看视频](https://www.bilibili.com/video/av10994799)
 - ****学习笔记****： [探索与利用](https://blog.csdn.net/dukuku5038/article/details/84782354)
->> **实战作业：**
 
 ### Week10
 1.   从原理到实战AlphoGO
