@@ -41,6 +41,7 @@
 
 - 了解python基础知识，高等数学、概率论、线性代数知识
 - 了解基础机器学习算法：梯度下降、线性回归、逻辑回归、Softmax、SVM、PAC、神经网络、凸优化、函数逼近理论
+- 了解Tensorflow基本编程
 
 
 ## 知识工具
@@ -103,7 +104,6 @@
 - **课件:** [lecture01](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)
 - [观看视频1](https://www.bilibili.com/video/av9831889)
 - **学习笔记**：[强化学习原理简介](hhttps://blog.csdn.net/dukuku5038/article/details/84273813)
->> **实战作业：**
 
 ### Week2
 
@@ -125,7 +125,6 @@
 - **课件:** [lecture02](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf)
 - [观看视频2](https://www.bilibili.com/video/av9833386)
 - **学习笔记**： [马尔可夫决策过程](https://blog.csdn.net/dukuku5038/article/details/84361371)
-> **实战作业：**
 
 ### Week3
 1. 动态规划算法简介
@@ -155,7 +154,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture03](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/DP.pdf)
 - [观看视频3](https://www.bilibili.com/video/av9930653)
 - **学习笔记:** [动态规划寻找最优策略](https://blog.csdn.net/dukuku5038/article/details/84516559)
-> **实战作业：**
 
 
 ### Week4
@@ -179,7 +177,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture04](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MC-TD.pdf)
 - [观看视频](https://www.bilibili.com/video/av9831252)
 - **学习笔记**：[不基于模型的预测与控制](https://blog.csdn.net/dukuku5038/article/details/84557798)
->> **实战作业：**
 
 ### Week5
 1. 不基于模型的控制
@@ -239,7 +236,6 @@ def policy_improve(self, grid_map)
 - **课件:** [lecture7](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/pg.pdf)
 - [观看视频](https://www.bilibili.com/video/av10293122)
 - **学习笔记**： [策略梯度方法](https://blog.csdn.net/dukuku5038/article/details/84670464)
->> **实战作业：**
 
 ### Week8
 1.  整合学习与规划
@@ -297,4 +293,3 @@ def policy_improve(self, grid_map)
 + 如果玩家的总和超过21，或者小于1，那么她“去了
 胸围“并失去了游戏（奖励-1）
 + 如果玩家坚持，则经销商开始轮流。经销商总是坚持17或更高的总和，否则命中。如果经销商破产，则玩家获胜;否则，结果 - 赢（奖励+1），输（奖励-1）或平局（奖励0） - 是总和最多的玩家
-# Deep-Reinforcement-Learning
