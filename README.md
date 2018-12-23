@@ -95,10 +95,7 @@
 + 预测与控制
 + **实例讲解： Maze游戏中的强化学习理解**
 
-
->**作业实战**：
->
->1、请编写一个实现Easy21游戏的环境。 具体来说，写一个名为step的函数，它将状态s（dealer的第一张牌1-10和玩家的总和1-21）和动作 $a$（击中或坚持）作为输入，并返回下一状态的样本 $s_{0}$（如果比赛结束可能是终点）和奖励 $r$。 我们将使用此环境进行无模型强化学习，无需明确表示 MDP的转换矩阵。 没有折扣 ($\gamma=1$), 请将dealer的举动视为环境的一部分，即用棍棒动作调用步骤将播放经销商的牌并返回最终奖励和终端状态。
+![](assets/markdown-img-paste-2018122319470574.png)
 
 >
 - **课件:** [lecture01](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)
@@ -113,13 +110,7 @@
 + **实例讲解：学生成绩及课程决策过程**
 + 马尔科夫决策过程
 
-
->**作业实战**：
->
->1、骷髅和钱袋子环境SkullAndTreasure是有OpenAI开发的一个共有八个状态的游戏，其中有两个死亡区域，一个金币区域，机器人从任何一个位置开始出发，如何通过探索找到金币，如果进入死亡区域或金币区域，游戏结束
-+ 请自行安装OpenAI环境，并调用环境SkullAndTreasure。
-+ 定义马尔科夫过程元组( $S,A,P,R,\gamma$), 并计算每个过程中的回报函数、状态转移概率。
-
+![](assets/markdown-img-paste-20181223194730853.png)
 
 >
 - **课件:** [lecture02](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/MDP.pdf)
@@ -163,11 +154,7 @@ def policy_improve(self, grid_map)
 + DP、MC、TD之间的对比
 + λ时序差分强化学习
 
-
->**作业实战**：
->
->1、Easy21游戏见本部分附录，将MC控制应用于Easy21游戏，将值函数初始化为零。 使用时间变化的标量步长 $\alpha_{t}= \frac{1}{N}(s_{t},a_{t})$, 和使用了 $\epsilon_{t}=\frac{N_{0}}{N_{0}+N(s_{t})}$ (其中 $N_{0}$ 是常数且 $N_{0}=100$，N(s)是状态s被访问的次数，N(s,a)是从状态s中选择动作a的次数)的 $\epsilon$-$greedy$探索策略。如果它有助于产生更好的结果，请随意为N0选择替代值， 并在Sutton和Barto-Blackjack示例图中绘制最佳值函数 $V^{*}(s)=\max_{a}(V^{*}(s, a))$。
-
+![](assets/markdown-img-paste-20181223194755989.png)
 
 ![](assets/markdown-img-paste-20181218160538581.png)
 
@@ -186,6 +173,8 @@ def policy_improve(self, grid_map)
 + 离线策略学习 Off-Policy Learning
 + Q-Learning
 + **实例讲解： 悬崖行走**
+
+
 
 >
 - **课件:** [lecture05](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/control.pdf)
