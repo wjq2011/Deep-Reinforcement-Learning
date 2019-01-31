@@ -100,7 +100,7 @@
 >
 - **课件:** [lecture01](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf)
 - [观看视频1](https://www.bilibili.com/video/av9831889)
-- **学习笔记**：[强化学习原理简介](hhttps://blog.csdn.net/dukuku5038/article/details/84273813)
+- **学习笔记**：[强化学习原理简介](https://blog.csdn.net/dukuku5038/article/details/84273813)
 
 ### Week2
 
